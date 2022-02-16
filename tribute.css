@@ -12,35 +12,6 @@ body{
     top:0;
     bottom:0;
 }
-
-@media screen and (max-width:1020px){
-    #main{      
-        height:170rem;   
-    }
-}
-@media screen and (max-width:750px){
-    #main{    
-        height:190rem;   
-    }
-}
-
-@media screen and (max-width:640px){
-    #main{    
-        height:210rem;   
-    }
-}
-@media screen and (max-width:590px){
-    #main{    
-        height:260rem;   
-    }
-}
-@media screen and (max-width:460px){
-    #main{
-        height:300rem;   
-    }
-}
-
-
 #main h1{
     display:block;
     font-weight:700;
@@ -114,4 +85,56 @@ body{
     padding:none;
     line-height:1.2rem;
     margin-top:2rem;
+}
+@media screen and (max-width:1020px){
+    #main{      
+        height:170rem;   
+    }
+}
+@media screen and (max-width:750px){
+    #main{    
+        height:190rem;   
+    }
+}
+
+@media screen and (max-width:640px){
+    #main{    
+        height:120rem;   
+    }
+    #tasks ul{
+        width:90%;
+    }
+}
+@media screen and (max-width:590px){
+    #main{    
+        height:130rem;   
+    }
+    #tasks ul{
+        width:90%;
+    }
+    #tasks > #quote{
+        width:90%;
+    }
+}
+@media screen and (max-width:460px){
+    #main{
+        height:150rem;   
+    }
+    #tasks ul{
+        width:90%;
+    }
+    #tasks > #quote{
+        width:90%;
+    }
+}
+@media screen and (max-width:300px){
+    #main{
+        height:200rem;   
+    }
+    #tasks ul{
+        width:90%;
+    }
+    #tasks > #quote{
+        width:90%;
+    }
 }
